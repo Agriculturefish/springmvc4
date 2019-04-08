@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tiles-definitions>  
+    <definition name="base.definition" template="/WEB-INF/views/tilesMainTemplate.jsp">  
+        <put-attribute name="title" value=""></put-attribute>  
+        <put-attribute name="header" value="/WEB-INF/views/header.jsp"></put-attribute>  
+        <put-attribute name="menu" value="/WEB-INF/views/home.jsp"></put-attribute>  
+        <put-attribute name="body" value=""></put-attribute>  
+        <put-attribute name="footer" value="/WEB-INF/views/footer.jsp"></put-attribute>  
+    </definition>  
+
+    <definition extends="base.definition" name="hello">  
+        <put-attribute name="title" value="Post your free Ad"></put-attribute>  
+        <put-attribute name="body" value="/WEB-INF/views/hello.jsp"></put-attribute>  
+    </definition>  
+
+
+</tiles-definitions> 
